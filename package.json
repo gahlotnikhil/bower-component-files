@@ -1,0 +1,29 @@
+{
+  "name": "bower-component-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gahlotnikhil/bower-component-files.git"
+  },
+  "author": "gahlotnikhil",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gahlotnikhil/bower-component-files/issues"
+  },
+  "homepage": "https://github.com/gahlotnikhil/bower-component-files#readme"
+}
