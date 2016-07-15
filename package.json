@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,12 @@
   "author": "gahlotnikhil",
   "dependencies": {
     "bower": "^1.7.9",
+    "chai": "^3.5.0",
     "fs-extra": "^0.30.0",
     "gulp": "^3.9.1",
+    "mocha": "^2.5.3",
+    "mockery": "^1.7.0",
+    "sinon": "^1.17.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
