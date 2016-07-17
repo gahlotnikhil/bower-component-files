@@ -1,5 +1,5 @@
 # bower-component-files
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url]
 
 ## Synopsis
 
@@ -112,5 +112,8 @@ Copyright (c) 2016 Nikhil Gahlot
 [daviddm-image-dev]: https://david-dm.org/gahlotnikhil/bower-component-files/dev-status.svg
 [daviddm-url-dev]: https://david-dm.org/gahlotnikhil/bower-component-files#info=devDependencies
 
-[travis-image]: https://travis-ci.org/gahlotnikhil/bower-component-files.svg?branch=master
+[travis-image]: https://img.shields.io/travis/gahlotnikhil/bower-component-files/master.svg?label=linux/os
 [travis-url]: https://travis-ci.org/gahlotnikhil/bower-component-files
+
+[appveyor-image]: https://img.shields.io/appveyor/ci/gahlotnikhil/bower-component-files/master.svg?label=windows
+[appveyor-url]: https://ci.appveyor.com/project/gahlotnikhil/bower-component-files
