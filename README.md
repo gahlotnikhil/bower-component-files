@@ -97,6 +97,11 @@ bowerComponentFiles.copyMainFiles({ "*.js": "./webapp/js",
 [sudo] npm test
 ```
 
+With test coverage:
+```bash
+[sudo] npm test --coverage
+```
+
 ## License
 
 The MIT License (MIT)
