@@ -12,9 +12,9 @@ bower-component-files is used to copy/fetch dependency files (js, css, less, etc
   eg:
   ```js
     bowerComponentFiles.copyMainFiles({"*.js": "./webapp/vendor/{{comp_name}}/js",
-                                  "*.css": "./webapp/vendor/{{comp_name}}/css",
-                                  "*.less": "./webapp/vendor/{{comp_name}}/less"},
-                                    { exclude: '*boot*.js' });
+                              "*.css": "./webapp/vendor/{{comp_name}}/css",
+                              "*.less": "./webapp/vendor/{{comp_name}}/less"},
+                              { exclude: '*boot*.js' });
 
   ```
 2. bowerComponentFiles.copyComponentFiles(filter : Array&lt;String&gt;/Object, options : Object)
@@ -63,7 +63,7 @@ Filter eg:
       // ...
     }
     // Note: Currently comp_name & comp_version are supported.
-*
+
 3. ["*.js", "*.css"]
     // Note: Default destination is '.' in this case. Every extention would
     // create a sub-directory.
