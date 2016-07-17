@@ -1,4 +1,4 @@
-# bower-component-files [![NPM version][npm-image]][npm-url]
+# bower-component-files [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url]
 
 ## Synopsis
 
@@ -10,11 +10,11 @@ bower-component-files is used to copy/fetch dependency files (js, css, less, etc
 
   eg:
   ```js
-    bowerComponentFiles.copyMainFiles({ "*.js": "./webapp/js",
-                                      "*.css": "./webapp/css",
-                                      "*.less": "./webapp/less"
-                                    },
+    bowerComponentFiles.copyMainFiles({"*.js": "./webapp/vendor/{{comp_name}}/js",
+                                  "*.css": "./webapp/vendor/{{comp_name}}/css",
+                                  "*.less": "./webapp/vendor/{{comp_name}}/less"},
                                     { exclude: '*boot*.js' });
+
   ```
 2. bowerComponentFiles.copyComponentFiles(filter : Array&lt;String&gt;/Object, options : Object)
 
@@ -44,6 +44,35 @@ bower-component-files is used to copy/fetch dependency files (js, css, less, etc
      ["dist/*.js", "dist/*.css"], {})).pipe(gulp.dest('dest/lib'));
 
   ```
+
+Filter eg:
+
+```js
+
+1. {
+      "*.js": "./webapp/js",
+      "*.css": "./webapp/css",
+      "*.less": "./webapp/less"
+      // ...
+   }
+2. {
+      "*.js": "./webapp/vendor/{{comp_name}}/js",
+      "*.css": "./webapp/vendor/{{comp_name}}/css",
+      "*.less": "./webapp/vendor/{{comp_name}}/less"
+      // ...
+    }
+    // Note: Currently comp_name & comp_version are supported.
+*
+3. ["*.js", "*.css"]
+    // Note: Default destination is '.' in this case. Every extention would
+    // create a sub-directory.
+    // This would be compiled as
+    {
+        "*.js": "./js",
+        "*.css": "./css",
+    }
+
+```
 
 ## Installation
 
@@ -75,3 +104,12 @@ Copyright (c) 2016 Nikhil Gahlot
 
 [npm-image]: https://badge.fury.io/js/bower-component-files.svg
 [npm-url]: https://npmjs.org/package/bower-component-files
+
+[daviddm-image]: https://david-dm.org/gahlotnikhil/bower-component-files.svg
+[daviddm-url]: https://david-dm.org/gahlotnikhil/bower-component-files
+
+[daviddm-image-dev]: https://david-dm.org/gahlotnikhil/bower-component-files/dev-status.svg
+[daviddm-url-dev]: https://david-dm.org/gahlotnikhil/bower-component-files#info=devDependencies
+
+[travis-image]: https://travis-ci.org/gahlotnikhil/bower-component-files.svg?branch=master
+[travis-url]: https://travis-ci.org/gahlotnikhil/bower-component-files
