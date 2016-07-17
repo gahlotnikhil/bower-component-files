@@ -1,4 +1,5 @@
-# bower-component-files [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url]
+# bower-component-files
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url]
 
 ## Synopsis
 
