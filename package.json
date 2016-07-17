@@ -4,7 +4,8 @@
   "description": "A package to copy/fetch dependency files (js, css, less, etc) from bower dependency packages to a web application directory.",
   "main": "lib/main.js",
   "scripts": {
-    "test": "mocha"
+    "test":
+    "istanbul test ./node_modules/.bin/_mocha -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -13,17 +14,17 @@
   "author": "gahlotnikhil",
   "dependencies": {
     "bower": "^1.7.9",
-    "chai": "^3.5.0",
     "fs-extra": "^0.30.0",
-    "gulp": "^3.9.1",
-    "mocha": "^2.5.3",
-    "mockery": "^1.7.0",
-    "sinon": "^1.17.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
     "bower": "^1.7.9",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "mockery": "^1.7.0",
+    "sinon": "^1.17.4",
+    "chai": "^3.5.0"
   },
   "license": "MIT",
   "bugs": {

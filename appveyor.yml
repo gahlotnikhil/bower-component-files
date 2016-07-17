@@ -10,6 +10,6 @@ install:
 test_script:
   - node --version
   - npm --version
-  - npm test
+  - npm test --coverage
 version: 1.0.{build}
 build: off
