@@ -1,7 +1,7 @@
 {
   "name": "bower-component-files",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A package to copy/fetch dependency files (js, css, less, etc) from bower dependency packages to a web application directory.",
   "main": "lib/main.js",
   "scripts": {
     "test": "mocha"
