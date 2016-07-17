@@ -1,5 +1,5 @@
 # bower-component-files
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url]
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![devDependency Status][daviddm-image-dev]][daviddm-url-dev] [![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url] [![Build Status][codecov-image]][codecov-url]
 
 ## Synopsis
 
@@ -117,3 +117,6 @@ Copyright (c) 2016 Nikhil Gahlot
 
 [appveyor-image]: https://img.shields.io/appveyor/ci/gahlotnikhil/bower-component-files/master.svg?label=windows
 [appveyor-url]: https://ci.appveyor.com/project/gahlotnikhil/bower-component-files
+
+[codecov-image]: https://codecov.io/gh/gahlotnikhil/bower-component-files/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/gahlotnikhil/bower-component-files
