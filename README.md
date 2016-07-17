@@ -1,4 +1,4 @@
-# bower-component-files
+# bower-component-files [![NPM version][npm-image]][npm-url]
 
 ## Synopsis
 
@@ -18,7 +18,7 @@ bower-component-files is used to copy/fetch dependency files (js, css, less, etc
   ```
 2. bowerComponentFiles.copyComponentFiles(filter : Array&lt;String&gt;/Object, options : Object)
 
-  The method copies files from specified directory under specified component/package to the corresponding destination. This method is used to copy files not mentioned as main files in bower.json. 
+  The method copies files from specified directory under specified component/package to the corresponding destination. This method is used to copy files not mentioned as main files in bower.json.
 
   eg:
   ```js
@@ -72,3 +72,6 @@ bowerComponentFiles.copyMainFiles({ "*.js": "./webapp/js",
 The MIT License (MIT)
 
 Copyright (c) 2016 Nikhil Gahlot
+
+[npm-image]: https://badge.fury.io/js/bower-component-files.svg
+[npm-url]: https://npmjs.org/package/bower-component-files
